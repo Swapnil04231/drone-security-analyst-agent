@@ -1,0 +1,15 @@
+# Core dependencies (always required)
+pytest>=7.0
+
+# LangChain ecosystem (for LLM-enhanced mode)
+langchain>=0.1.0
+langchain-core>=0.1.0
+
+# LLM providers (install at least one for --llm mode)
+langchain-anthropic>=0.1.0       # For Anthropic Claude
+langchain-openai>=0.0.5          # For OpenAI GPT
+
+# Optional VLM support (for real image processing)
+# transformers>=4.35.0
+# Pillow>=10.0.0
+# torch>=2.0.0
