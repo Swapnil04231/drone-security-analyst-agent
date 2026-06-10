@@ -54,7 +54,7 @@ HOURS = [
     "16:00", "18:30", "20:00", "22:45", "23:59",
 ]
 
-BASE_LAT = 18.9750   # Nashik approximate coords for realism
+BASE_LAT = 18.9750   
 BASE_LON = 73.8553
 
 

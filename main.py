@@ -27,17 +27,14 @@ def run_demo(use_llm: bool = False):
 
     print(f"[SIM] Generated {len(frames)} video frames and {len(telemetry_stream)} telemetry records\n")
 
-    # Process each frame with corresponding telemetry
     for frame, telemetry in zip(frames, telemetry_stream):
         agent.process_frame(frame, telemetry)
 
-    # Print summary
     print("\n" + "="*60)
     print("  SESSION SUMMARY")
     print("="*60)
     agent.print_summary()
 
-    # Demo Q&A
     print("\n" + "="*60)
     print("  FOLLOW-UP QUERY DEMO")
     print("="*60)
